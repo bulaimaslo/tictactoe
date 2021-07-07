@@ -13,7 +13,6 @@ public class HardBot extends Player {
 
         System.out.println("Making move level \"hard\"");
 
-        //check if there's a winning move (already two symbols in a row)
         for (int col = 1; col < 4; col++) {
             for (int row = 1; row < 4; row++) {
                 if (board.checkSymbol(col, row) == ' ') {
